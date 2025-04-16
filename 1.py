@@ -7,7 +7,7 @@ import seaborn as sns
 df = pd.read_csv("/Users/abhaykumargupta/Desktop/pythonCA2/Warehouse_and_Retail_Sales.csv")
 
 # Basic information
-print(" Dataset Overview")
+t(" Dataset Overview")
 print(df.info())
 print("/n First 5 Rows")
 print(df.head())
