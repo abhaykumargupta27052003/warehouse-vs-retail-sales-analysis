@@ -38,7 +38,7 @@ print(" Item Types:", df['ITEM TYPE'].unique())
 
 # Visualization 1: Distribution of Total Sales
 plt.figure(figsize=(10, 5))
-sns.histplot(df['Total Sales'], bins=50, kde=True, color='skyblue')
+sns.histplot(df['Total Sales'], bins=50, kde=True, color='blue')
 plt.title("Distribution of Total Sales")
 plt.xlabel("Total Sales ($)")
 plt.ylabel("Frequency")
