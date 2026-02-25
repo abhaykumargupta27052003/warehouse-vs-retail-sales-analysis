@@ -3,7 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load your dataset
 df = pd.read_csv("/Users/abhaykumargupta/Desktop/pythonCA2/Warehouse_and_Retail_Sales.csv")
 
 # Basic information
