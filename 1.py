@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
+
 
 # Load your dataset
 df = pd.read_csv("/Users/abhaykumargupta/Desktop/pythonCA2/Warehouse_and_Retail_Sales.csv")
@@ -38,7 +38,7 @@ print(" Item Types:", df['ITEM TYPE'].unique())
 
 # Visualization 1: Distribution of Total Sales
 plt.figure(figsize=(10, 5))
-sns.histplot(df['Total Sales'], bins=50, kde=True, color='skyblue')
+sns.histplot(df['Total Sales'], bins=50,  color='skyblue')
 plt.title("Distribution of Total Sales")
 plt.xlabel("Total Sales ($)")
 plt.ylabel("Frequency")
