@@ -55,7 +55,7 @@ sns.barplot(
     hue='ITEM TYPE',
     palette='viridis',
     legend=False,
-    errorbar=None
+    
 )
 plt.title("Total Sales by Item Type")
 plt.xlabel("Item Type")
